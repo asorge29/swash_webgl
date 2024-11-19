@@ -3,38 +3,23 @@
   Cross-Origin-Opener-Policy: same-origin
   Content-Security-Policy: script-src 'self'; worker-src 'self'; object-src 'none'
 
-/*.wasm
-  Content-Type: application/wasm
-
-/*.data
-  Content-Type: application/octet-stream
-
-/*.js
-  Content-Type: application/javascript
-
 /*.js.br
   Content-Encoding: br
-  Content-Type: application/javascript
-
-/*.js.gz
-  Content-Encoding: gzip
   Content-Type: application/javascript
 
 /*.framework.js.br
   Content-Encoding: br
   Content-Type: application/javascript
 
-/*.framework.js.gz
-  Content-Encoding: gzip
-  Content-Type: application/javascript
-
 /*.loader.js.br
   Content-Encoding: br
   Content-Type: application/javascript
 
-/*.loader.js.gz
-  Content-Encoding: gzip
-  Content-Type: application/javascript
+/*.wasm
+  Content-Type: application/wasm
+
+/*.data
+  Content-Type: application/octet-stream
 
 /index.html
   Content-Type: text/html
