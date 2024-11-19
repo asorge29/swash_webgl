@@ -1,0 +1,24 @@
+/* 
+  Cross-Origin-Embedder-Policy: require-corp
+  Cross-Origin-Opener-Policy: same-origin
+  Content-Security-Policy: script-src 'self'; worker-src 'self'; object-src 'none'
+
+/*.wasm
+  Content-Type: application/wasm
+
+/*.data
+  Content-Type: application/octet-stream
+
+/*.js
+  Content-Type: application/javascript
+
+/*.br
+  Content-Encoding: br
+  Content-Type: application/javascript
+
+/*.gz
+  Content-Encoding: gzip
+  Content-Type: application/javascript
+
+/index.html
+  Content-Type: text/html
