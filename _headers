@@ -12,11 +12,27 @@
 /*.js
   Content-Type: application/javascript
 
-/*.br
+/*.js.br
   Content-Encoding: br
   Content-Type: application/javascript
 
-/*.gz
+/*.js.gz
+  Content-Encoding: gzip
+  Content-Type: application/javascript
+
+/*.framework.js.br
+  Content-Encoding: br
+  Content-Type: application/javascript
+
+/*.framework.js.gz
+  Content-Encoding: gzip
+  Content-Type: application/javascript
+
+/*.loader.js.br
+  Content-Encoding: br
+  Content-Type: application/javascript
+
+/*.loader.js.gz
   Content-Encoding: gzip
   Content-Type: application/javascript
 
