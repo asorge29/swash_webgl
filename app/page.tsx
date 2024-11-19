@@ -6,7 +6,7 @@ export default function Home() {
 
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "Build/Optimized build.loader.js";
+    script.src = "Build/swashWebgl.loader.js";
     script.async = true;
     document.body.appendChild(script);
 
