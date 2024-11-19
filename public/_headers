@@ -1,7 +1,6 @@
 /* 
   Cross-Origin-Embedder-Policy: require-corp
   Cross-Origin-Opener-Policy: same-origin
-  Content-Security-Policy: script-src 'self'; worker-src 'self'; object-src 'none'
 
 /Build/*.js
   Content-Type: application/javascript
