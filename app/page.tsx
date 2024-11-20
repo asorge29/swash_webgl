@@ -1,6 +1,7 @@
 'use client';
 
 import {useEffect} from "react";
+import styles from './page.module.css';
 
 export default function Home() {
 
@@ -16,10 +17,10 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
-      <iframe src='/game.html' width='100%' height='100%'
-              style={{border: 'none', position: 'absolute', top: 0, bottom: 0, left: 0, right: 0}}
-              allowFullScreen></iframe>
+    <div className={styles.page}>
+      <h1 className={styles.title}>Swash: The Pirate Roguelike</h1>
+      <iframe src='/game.html' width='1000px' height='700px'
+              allowFullScreen className={styles.game}></iframe>
     </div>
   );
 }
